@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Selectors</title>
+    <link rel="stylesheet" href="CSSSelectorPracticesstyles.css">
+</head>
+<body>
+    <h1>CSS Selectors Practices</h1>
+        <nav>
+            <a style="color: white;padding-right: 11px;" href="">Home</a>
+            <a style="color: white;padding-right: 11px;" href="">About</a>
+            <a style="color: white;padding-right: 11px;" href="">Services</a>
+            <a style="color: white;padding-right: 11px;" href="">Contact</a>
+        </nav><br>
+        <div class="universal">
+            <h2 style="text-align: left;">Universal Selector Example</h2><br>
+            <p>This paragraph is styled using the universal selector(*)which apllies to all elements</p>
+        </div><br>
+        <div class="type">
+            <h2 style="text-align: left;">Type Selector Example</h2><br>
+            <h3>HEADING AND PARAGRAPHS</h3><br>
+            <p>This paragraph is styled using the universal selector(*)which apllies to all elements</p>
+        </div><br>
+        <div class="class">
+            <h2 style="text-align: left;">class Selector Example</h2><br>
+            <p>This section is styled using a class Selectornamed.highlight.</p>
+        </div><br>
+        <div class="id">
+            <h2 style="text-align: left;color: red;">ID Selector Example</h2><br>
+            <p style="color: red;">This section is styled using an ID Selector named #unique</p>
+        </div><br>
+        <div class="attribute">
+            <h2 style="text-align: left;">Attribute Selector Example</h2><br>
+            <h3>type your name :</h3><br>
+            <input type="text" placeholder="your name">
+        </div><br>
+        <div class="descendant">
+            <h2 style="text-align: left;">Descendant Selector Example</h2><br>
+            <p>This paragraph is inside a div and styled by the descendant selector(div py)</p>
+        </div><br>
+        <div class="child">
+            <h2 style="text-align: left;">Child Selector Example</h2><br>
+                <ul>
+                <li>First child item styled using child Selector(ul>li).</li>
+                <li>Another child item in the list</li>
+                </ul>
+        </div><br>
+        <div class="adjacent">
+            <h2 style="text-align: left;">Adjacent Sibiling Selector Example</h2><br>
+            <p>This paragraph is styled as an adjacent sibiling to the above heading(h2+p)</p>
+        </div><br>
+        <div class="general">
+            <h2 style="text-align: left;">General Sibiling Selector Example</h2><br>
+            <h3>Another Heading</h3><br>
+            <p>This paragraph is styled as a general sibiling to the above heading(h2+p)</p><br>
+            <p>Another sibiling paragraph styled the same way</p>
+        </div><br>
+    <footer>© 2024 Training Website</footer>
+</body>
+</html>

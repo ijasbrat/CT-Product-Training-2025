@@ -1,0 +1,68 @@
+*{
+    padding: 0px 100px 0px 100px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color:gray ;
+    max-height: 1000px;
+    padding: 10px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+nav {
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    border-radius: 0%;
+    margin: 0%;
+    vertical-align:middle;
+    text-decoration: none;
+    
+}
+.universal {
+    background-color:gray ;
+    padding: 10px;
+}
+.type {
+    background-color:gray ;
+    padding: 10px;
+}
+.class{
+    background-color: yellow;
+    padding: 10px;
+}
+.id {
+    background-color: gray;
+    padding: 10px;
+}
+.attribute {
+    background-color: gray;
+    padding: 10px;
+}
+.descendant {
+    background-color: gray;
+    padding: 10px;
+}
+.child{
+    background-color: gray;
+    padding: 10px;
+}
+.adjacent {
+    background-color: gray;
+    padding: 10px;
+}
+.general{
+    background-color: gray;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
+input{
+    margin-block-start: 10px;
+    margin-inline-start: 100px;
+}

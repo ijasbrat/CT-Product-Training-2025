@@ -1,0 +1,60 @@
+*{
+    padding: 0px 100px 0px 100px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color:gray ;
+    max-height: 1000px;
+    padding: 10px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+footer{
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    border-radius: 0%;
+    margin: 0%;
+    vertical-align:middle;
+    text-decoration: none;
+}
+h4{
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.inline {
+    display: inline;
+    background-color:rgb(0, 191, 255);
+    color: white;
+    padding: 15px 20px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.inline-block{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 20px 20px 20px ;
+}
+.blue {
+    padding-inline-start: 340px;
+}
+.orange{
+    padding-inline-start: 380px;
+}

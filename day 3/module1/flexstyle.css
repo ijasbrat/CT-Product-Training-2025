@@ -1,0 +1,49 @@
+*{
+    padding: 0px 100px 0px 100px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color:gray ;
+    max-height: 1000px;
+    padding: 10px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+footer{
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    border-radius: 0%;
+    margin: 0%;
+    vertical-align:middle;
+    text-decoration: none;
+    text-decoration: none;
+}
+.content {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   margin-top: 50px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Box {
+    background: green;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;   
+}
+footer {
+    background-color: grey;
+    padding: 80 px 80px;
+}
