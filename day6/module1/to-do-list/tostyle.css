@@ -1,0 +1,120 @@
+/* Page layout */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  margin: 0;
+}
+
+/* Container like your wireframe */
+.todo-container {
+  width: 380px;
+  background: #fff;
+  border: 3px solid #bfe7ff; /* outer border */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Title */
+h1 {
+  margin: 0 0 18px 0;
+  font-size: 24px;
+  text-align: left;
+}
+
+/* Input + button */
+.input-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+/* style ONLY text inputs (not checkboxes) */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* checkbox specific styling (keeps native look but larger) */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #007bff; /* modern browsers support this */
+}
+
+/* button */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover { filter: brightness(.95); }
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each task row */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #fafafa;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* left side groups checkbox + text */
+.label-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer; /* clicking label toggles checkbox */
+}
+
+/* task text */
+.task-text {
+  font-size: 16px;
+  user-select: none;
+}
+
+/* strikethrough when completed (centered visually) */
+li.completed .task-text {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* delete button */
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.delete-btn:hover { filter: brightness(.9); }
+
+/* small responsiveness */
+@media (max-width: 420px) {
+  .todo-container { width: calc(100% - 24px); }
+}

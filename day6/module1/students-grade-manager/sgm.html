@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Grades Manager</title>
+  <link rel="stylesheet" href="sgmstyle.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Student Grades Manager</h1>
+
+
+    <div class="input-area">
+      <label>
+        Student Name:
+        <input type="text" id="studentName" placeholder="Enter student name">
+      </label>
+      <label>
+        Grade (0-100):
+        <input type="number" id="studentGrade" placeholder="Enter grade" min="0" max="100">
+      </label>
+      <button id="addStudentBtn">Add Student</button>
+    </div>
+
+
+    <div class="actions">
+      <button id="showGradesBtn">Show All Grades</button>
+      <button id="calcAverageBtn">Calculate Average</button>
+    </div>
+
+
+    <p id="errorMsg" class="error"></p>
+
+
+    <div class="list-section">
+      <h2>Students</h2>
+      <ul id="studentList"></ul>
+    </div>
+
+
+    <div class="average-section">
+      <h2>Average Grade</h2>
+      <div id="averageGrade">—</div>
+    </div>
+  </div>
+
+  <script src="sgmscript.js"></script>
+

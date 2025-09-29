@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Simple Interest Calculator</title>
+  <link rel="stylesheet" href="sics.css">
+</head>
+<body>
+  <div class="calculator-box">
+    <h2>Advanced Simple Interest Calculator</h2>
+
+    <label for="principal">Principal Amount:</label>
+    <input type="number" id="principal" placeholder="Enter principal amount">
+
+    <label for="rate">Interest Rate (%):</label>
+
+    <input type="text" id="rate" readonly placeholder="Rate will appear here">
+
+    <label for="time">Time (Years):</label>
+    <input type="number" id="time" placeholder="Enter time in years">
+
+    <button id="calculateBtn">Calculate Interest</button>
+
+    <div class="output">
+      <p><strong>Interest:</strong> <span id="interest">--</span></p>
+      <p><strong>Total Amount:</strong> <span id="total">--</span></p>
+      <p><strong>Additional Information:</strong></p>
+      <p id="additional">--</p>
+    </div>
+
+    <p id="errorMsg" class="error"></p>
+  </div>
+
+  <script src="sicscript.js"></script>
+</body>
+</html>
