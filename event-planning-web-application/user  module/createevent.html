@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Event</title>
+  <link rel="stylesheet" href="cestyle.css">
+</head>
+<body>
+  <header>
+    <div class="header-bar">
+      <h1>Create New Event</h1>
+      <div class="user-info">
+        <span id="userNameRole">User Name (Role)</span>
+        <div class="dropdown">
+          <button class="dropbtn">▼</button>
+          <div class="dropdown-content">
+            <a href="#" id="settingsBtn">Settings</a>
+            <a href="#" id="logoutBtn">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <form id="eventForm" class="event-form">
+      <label for="eventName">Event Name</label>
+      <input type="text" id="eventName" required placeholder="Enter event name">
+
+      <label for="eventDate">Event Date</label>
+      <input type="date" id="eventDate" required>
+
+      <label for="eventTime">Event Time</label>
+      <input type="time" id="eventTime" required>
+
+      <label for="eventLocation">Location</label>
+      <input type="text" id="eventLocation" required placeholder="Enter location">
+
+      <label for="eventDescription">Description</label>
+      <textarea id="eventDescription" rows="4" required placeholder="Enter description"></textarea>
+
+      <label for="eventCategory">Category</label>
+      <select id="eventCategory" required>
+        <option value="">Select Category</option>
+        <option value="Conference">Conference</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Birthday">Birthday</option>
+      </select>
+
+      <label for="eventStatus">Status</label>
+      <select id="eventStatus" required>
+        <option value="Planning">Planning</option>
+        <option value="Finalized">Finalized</option>
+        <option value="Canceled">Canceled</option>
+      </select>
+
+      <div class="buttons">
+        <button type="submit" id="saveBtn">Save Event</button>
+        <button type="button" id="cancelBtn">Cancel</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="cescript.js"></script>
+</body>
+</html>

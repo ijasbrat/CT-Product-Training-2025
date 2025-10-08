@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Dashboard</title>
+  <link rel="stylesheet" href="edstyle.css">
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <h1>Event Dashboard</h1>
+      <div class="user-info">
+        <span id="userNameRole">User Name (Role)</span>
+        <div class="dropdown">
+          <button class="dropbtn">▼</button>
+          <div class="dropdown-content">
+            <a href="#" id="settingsBtn">Settings</a>
+            <a href="login.html" id="logoutBtn">Logout</a>
+          </div>
+        </div>
+      </div>
+      <button id="addEventBtn" class="add-event-btn">Add Event</button>
+    </div>
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search events...">
+      <select id="filterCategory">
+        <option value="">All Categories</option>
+        <option value="Conference">Conference</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Birthday">Birthday</option>
+      </select>
+      <select id="filterStatus">
+        <option value="">All Statuses</option>
+        <option value="Planning">Planning</option>
+        <option value="Finalized">Finalized</option>
+        <option value="Canceled">Canceled</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div class="event-grid" id="eventGrid">
+
+    </div>
+  </main>
+
+  <script src="edscript.js"></script>
+</body>
+</html>

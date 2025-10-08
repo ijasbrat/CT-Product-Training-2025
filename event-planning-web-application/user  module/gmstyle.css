@@ -1,0 +1,129 @@
+
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif; }
+body {
+  background: linear-gradient(135deg, #f5af19, #f12711);
+  min-height: 100vh;
+}
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #222;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.header-bar h1 { font-size: 24px; }
+
+.user-info { display: flex; align-items: center; gap: 10px; position: relative; }
+.user-info .dropbtn { background:none; border:none; color:#fff; font-size:16px; cursor:pointer; }
+.dropdown-content {
+  display:none;
+  position:absolute;
+  right:0; top:30px;
+  background:#fff;
+  min-width:120px;
+  border-radius:5px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+.dropdown-content a {
+  display:block;
+  padding:10px 12px;
+  color:#333;
+  text-decoration:none;
+  font-size:14px;
+  transition:0.2s;
+}
+.dropdown-content a:hover { background:#f5f5f5; }
+.dropdown:hover .dropdown-content { display:block; }
+
+main { padding: 20px; }
+
+.add-guest-section {
+  background: rgba(255,255,255,0.9);
+  padding:20px;
+  border-radius:8px;
+  margin-bottom:30px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.add-guest-section h2 { margin-bottom:15px; }
+
+.add-guest-form {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+.add-guest-form input {
+  flex:1 1 50px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+
+.add-guest-form button,
+#sendInvitesBtn {
+  padding:10px 18px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:bold;
+  transition: all 0.2s ease;
+}
+
+#addGuestBtn { background:#4CAF50; color:#fff; }
+#addGuestBtn:hover { transform:scale(1.05); background:#45a049; }
+
+#sendInvitesBtn { background:#2196F3; color:#fff; }
+#sendInvitesBtn:hover { transform:scale(1.05); background:#1976d2; }
+
+.guest-list-section {
+  background: rgba(255,255,255,0.9);
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.guest-list-section h2 { margin-bottom:15px; }
+
+table {
+  width:100%;
+  border-collapse:collapse;
+  overflow:hidden;
+}
+
+thead { background:#222; color:#fff; }
+th, td {
+  padding:12px 15px;
+  text-align:left;
+  border-bottom:1px solid #ddd;
+}
+tbody tr:hover { background:#f9f9f9; }
+
+
+table button {
+  padding:5px 10px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:13px;
+  transition: all 0.2s ease;
+}
+
+.editBtn { background:#ff9800; color:#fff; }
+.editBtn:hover { transform:scale(1.1); background:#e68a00; }
+
+.deleteBtn { background:#f44336; color:#fff; }
+.deleteBtn:hover { transform:scale(1.1); background:#d32f2f; }
+
+
+@media(max-width:768px) {
+  .add-guest-form { flex-direction:column; }
+  .add-guest-form input, .add-guest-form button, #sendInvitesBtn {
+    width:100%;
+  }
+}

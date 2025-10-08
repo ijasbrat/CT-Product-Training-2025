@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Dashboard - Event Planner</title>
+  <link rel="stylesheet" href="adstyle.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <h1>Admin Dashboard</h1>
+      <p class="subtitle">Manage users, categories and backups</p>
+    </div>
+
+    <div class="header-right">
+      <button id="addUserBtn" class="ghost-btn" aria-label="Add new user">+ Add User</button>
+
+      <div class="user-dropdown" id="userDropdown" tabindex="0" aria-haspopup="true" aria-expanded="false">
+        <span id="userNameRole" class="user-label" aria-live="polite">—</span>
+        <button id="userDropBtn" class="drop-toggle" aria-label="Open user menu">▾</button>
+        <div class="dropdown-menu" role="menu" aria-hidden="true">
+          <div class="divider" role="separator"></div>
+          <a href="#" id="settingsLink" role="menuitem">Settings</a>
+          <a href="login.html" id="logoutLink" role="menuitem">Logout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" role="main">  
+      <h2 id="welcomeHeading">Welcome, Admin</h2>
+      <p>i ve used chatgpt for styling.</p>
+      <nav class="admin-nav" role="navigation" aria-label="Admin sections">
+        
+          <a class="nav-card" href="usermanagement.html">
+            <div class="icon">👥</div>
+            <h2>User Management</h2>
+            <p>View, add, edit or delete application users (Username, Email, Role).</p>
+          </a>
+
+          <a class="nav-card" href="categorymanagement.html">
+            <div class="icon">🗂️</div>
+            <h2>Event Categories</h2>
+            <p>Create and manage event categories used in Event Creation.</p>
+          </a>
+
+          <a class="nav-card" href="backup.html">
+            <div class="icon">💾</div>
+            <h2>Backup & Restore</h2>
+            <p>Export and import application data; view backup history.</p>
+          </a>
+        </nav>
+  </main>
+
+  <script src="adscript.js"></script>
+</body>
+</html>

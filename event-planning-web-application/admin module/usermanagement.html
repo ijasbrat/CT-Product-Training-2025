@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management - Admin</title>
+  <link rel="stylesheet" href="umstyle.css">
+</head>
+<body>
+  <header>
+    <h1>User Management</h1>
+    <a href="admindashboard.html" class="back-btn">← Back to Dashboard</a>
+  </header>
+
+  <main>
+    <form id="addUserForm">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <select id="role" required>
+        <option value="User">User</option>
+        <option value="Admin">Admin</option>
+      </select>
+      <button type="submit">Add User</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="userList">
+
+      </tbody>
+    </table>
+  </main>
+
+  <script src="umscript.js"></script>
+</body>
+</html>

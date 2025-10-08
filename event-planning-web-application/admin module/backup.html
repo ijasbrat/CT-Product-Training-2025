@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backup Management - Admin</title>
+  <link rel="stylesheet" href="bstyle.css">
+</head>
+<body>
+  <header>
+    <h1>Backup Management</h1>
+    <a href="admindashboard.html" class="back-btn">← Back to Dashboard</a>
+  </header>
+
+  <main>
+    <section class="backup-section">
+      <h2>Download Backup</h2>
+      <p>Export all event, guest, and agenda data as a JSON file.</p>
+      <button id="downloadBackupBtn">Download Backup</button>
+    </section>
+
+    <section class="restore-section">
+      <h2>Restore Backup</h2>
+      <p>Upload a JSON file to restore previously saved data.</p>
+      <input type="file" id="backupFileInput" accept=".json">
+      <button id="restoreBackupBtn">Restore Backup</button>
+    </section>
+  </main>
+
+  <script src="bscript.js"></script>
+</body>
+</html>

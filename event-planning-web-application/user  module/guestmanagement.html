@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Guests</title>
+  <link rel="stylesheet" href="gmstyle.css">
+</head>
+<body>
+  <header class="header-bar">
+    <h1>Manage Guests</h1>
+    <a href="eventdashboard.html" style="text-align: center; color: white;" >go back</a>
+    <div class="user-info">
+      <span id="userRoleName">User Name (Role)</span>
+      <div class="dropdown">
+        <button class="dropbtn">▼</button>
+        <div class="dropdown-content">
+          <a href="#" id="settingsBtn">Settings</a>
+          <a href="login.html" id="logoutBtn">Logout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="add-guest-section">
+      <h2>Add Guest</h2>
+      <form id="guestForm" class="add-guest-form">
+        <input type="text" id="guestName" placeholder="Guest Name" required>
+        <input type="email" id="guestEmail" placeholder="Guest Email" required>
+        <button type="submit" id="addGuestBtn">Add Guest</button>
+      </form>
+      <button id="sendInvitesBtn">Send Invitations</button>
+    </section>
+    <section class="guest-list-section">
+      <h2>Guest List</h2>
+      <table id="guestTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>RSVP Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="gmscript.js"></script>
+</body>
+</html>

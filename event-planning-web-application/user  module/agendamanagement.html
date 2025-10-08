@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Agenda - Event Planner</title>
+  <link rel="stylesheet" href="amstyle.css">
+</head>
+<body>
+  <header>
+    <h1>Event Agenda</h1>
+    <a href="eventdashboard.html" class="back-btn">← Back to Dashboard</a>
+  </header>
+
+  <main>
+  
+    <form id="addAgendaForm">
+      <input type="time" id="startTime" required>
+      <input type="time" id="endTime" required>
+      <input type="text" id="agendaDescription" placeholder="Agenda Description" required>
+      <button type="submit">Add Agenda Item</button>
+    </form>
+
+
+    <table>
+      <thead>
+        <tr>
+          <th>Start Time</th>
+          <th>End Time</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="agendaList">
+
+      </tbody>
+    </table>
+  </main>
+
+  <script src="amscript.js"></script>
+</body>
+</html>
