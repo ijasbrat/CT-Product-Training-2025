@@ -1,0 +1,14 @@
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\bin\Debug\net8.0\arthemeticoperation.exe
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\bin\Debug\net8.0\arthemeticoperation.deps.json
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\bin\Debug\net8.0\arthemeticoperation.runtimeconfig.json
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\bin\Debug\net8.0\arthemeticoperation.dll
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\bin\Debug\net8.0\arthemeticoperation.pdb
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.AssemblyInfoInputs.cache
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.AssemblyInfo.cs
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.csproj.CoreCompileInputs.cache
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.dll
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\refint\arthemeticoperation.dll
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.pdb
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\arthemeticoperation.genruntimeconfig.cache
+C:\work\practice for .net (2)\practice for .net\arthemeticoperation\obj\Debug\net8.0\ref\arthemeticoperation.dll
