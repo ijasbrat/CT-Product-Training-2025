@@ -1,4 +1,4 @@
-/* Page layout */
+
 body {
   font-family: Arial, sans-serif;
   background: #f0f8ff;
@@ -9,17 +9,15 @@ body {
   margin: 0;
 }
 
-/* Container like your wireframe */
 .todo-container {
   width: 380px;
   background: #fff;
-  border: 3px solid #bfe7ff; /* outer border */
+  border: 3px solid #bfe7ff;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-/* Title */
 h1 {
   margin: 0 0 18px 0;
   font-size: 24px;
@@ -33,7 +31,6 @@ h1 {
   margin-bottom: 18px;
 }
 
-/* style ONLY text inputs (not checkboxes) */
 input[type="text"] {
   flex: 1;
   padding: 10px;
@@ -42,15 +39,14 @@ input[type="text"] {
   border-radius: 4px;
 }
 
-/* checkbox specific styling (keeps native look but larger) */
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #007bff; /* modern browsers support this */
+  accent-color: #007bff;
 }
 
-/* button */
+
 button {
   background: #007bff;
   color: white;
@@ -62,14 +58,14 @@ button {
 }
 button:hover { filter: brightness(.95); }
 
-/* Task list */
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Each task row */
+
 li {
   display: flex;
   align-items: center;
@@ -82,27 +78,25 @@ li {
   border-radius: 6px;
 }
 
-/* left side groups checkbox + text */
+
 .label-left {
   display: flex;
   align-items: center;
   gap: 12px;
-  cursor: pointer; /* clicking label toggles checkbox */
+  cursor: pointer; 
 }
 
-/* task text */
 .task-text {
   font-size: 16px;
   user-select: none;
 }
 
-/* strikethrough when completed (centered visually) */
+
 li.completed .task-text {
   text-decoration: line-through;
   color: #777;
 }
 
-/* delete button */
 .delete-btn {
   background: #dc3545;
   color: white;
@@ -114,7 +108,5 @@ li.completed .task-text {
 }
 .delete-btn:hover { filter: brightness(.9); }
 
-/* small responsiveness */
-@media (max-width: 420px) {
-  .todo-container { width: calc(100% - 24px); }
-}
+
+
