@@ -1,5 +1,5 @@
 body {
-  background: darkblue;
+  background: rgba(59, 59, 152);
   color: white;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  background: black;
+  background: rgba(35, 35, 91);
   padding: 25px;
   border-radius: 10px;
   width: 320px;
@@ -35,7 +35,7 @@ h2 {
 }
 
 #copy {
-  background: #007bff;
+  background: rgba(59, 59, 152);
   color: white;
   border: none;
   padding: 8px 12px;
@@ -54,21 +54,31 @@ label {
 }
 
 #length {
-  width: 100%;
-  padding: 5px;
+  width: 20%;
   border: none;
-  border-radius: 5px;
   margin-top: 5px;
-  font-size: 16px;
+  margin-left: 132px;
 }
 
 #generate {
-  background: yellow;
-  color: black;
+  background: rgba(59, 59, 152);
+  color: white;
   border: none;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+}
+#uppercase{
+  margin-left: 132px;
+}
+#lowercase{
+  margin-left: 130px;
+}
+#numbers{
+  margin-left: 189px;
+}
+#symbols{
+  margin-left: 192px;
 }
