@@ -1,0 +1,3 @@
+[INFO] 18-10-2025 12:53:18: Application started successfully.
+[WARNING] 18-10-2025 12:53:18: Low disk space detected.
+[ERROR] 18-10-2025 12:53:18: An unexpected error occurred!
